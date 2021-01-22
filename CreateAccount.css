@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Images/bg.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+}
+.Create{
+    padding: 35px 15px;
+    margin: auto;
+    width: 60vh;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+h2{
+    font-family: papyrus;
+    color: #050303;
+}h3{
+    font-family: MS UI Gothic;
+    color: #6C5757;
+    font-size: 1.6rem;
+    vertical-align: top;
+}
+#hide1{
+    display: none;
+}
+.eye{
+    position: fixed;
+}
+input{
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid rgb(160, 152, 152) ;
+    background: transparent;
+    outline: none;
+    text-indent: 5%;
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#EEE6E0;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; 
+    border-radius: 20px;
+}
+button:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#B7B6C7;
+    cursor: pointer;
+}
+@media screen and (max-width: 720px){
+    .Create{
+        height:50vh;
+        width: 40vh;
+        font-size: small;
+        padding: 15px 5px;
+        margin-top: 30px;
+    }
+    button{
+        width: 150px;
+        height: 30px;
+        font-size: x-small;
+
+    }
+    input{
+        width: 170px;
+        height: 30px;
+        font-size: x-small;
+    }
+    h3{
+        font-size:medium ;
+    }
+}
+

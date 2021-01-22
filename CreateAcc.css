@@ -1,0 +1,126 @@
+
+body{
+    background-image: url(main.jpg) ;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+position: static;
+}
+h2{
+    font-family: Papyrus;
+    color: #050303;
+    font-size: 210%;
+    margin: 5px;
+    text-align: center;
+}
+h3{
+    font-family: MS UI Gothic;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 170%;
+    color: #6C5757;
+}
+.NoAccount{
+    font-family: MS UI Gothic;
+    text-align: center;
+    font-size: 150%;
+    color: #6C5757;
+    padding-top: 15px;
+}
+.createAccount{
+    font-family: MS UI Gothic;
+    color: #6C5757;
+    font-size: 80%;
+    text-align: center;
+}
+.createAccount:hover{
+    text-shadow: 5px 5px 10px;
+}
+.Log-in input{
+    width: 300px;
+   max-height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(160, 152, 152) ;
+    background: transparent;
+    outline: none;
+    text-indent: 5%;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+.Log-in button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; 
+    border-radius: 20px;
+   margin-left: 40%;
+}
+.Log-in button:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#B7B6C7;
+    cursor: pointer;
+}
+input:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#EEE6E0;
+}
+.eye{
+position: fixed;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+#hide1{
+    display: none;
+}
+
+.Create input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(160, 152, 152) ;
+    background: transparent;
+    outline: none;
+    text-indent: 5%;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+.Create button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; 
+    border-radius: 20px;
+   margin-left: 40%;
+}
+.Create button:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#B7B6C7;
+    cursor: pointer;
+}
+@media screen and (max-width:624px)
+{
+    body{
+        background-image: url(main.jpg) ;
+        padding: 10px 10px;
+        background-size:cover;
+        overflow: hidden;
+        height:100vh;
+        background-repeat:repeat-y;
+        font-size: 50%;
+        padding: 0;
+        justify-items: center;
+        place-content: center;
+    }
+    .Create {
+   font-size: 10px;
+        padding-top: 2px;
+        margin-right: 105px;
+    }
+    .email{
+        margin-right: 50px;
+    }
+}

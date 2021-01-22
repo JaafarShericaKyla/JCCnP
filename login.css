@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url(Images/bg.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 101%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+}
+#hide1{
+    display: none;
+}
+.eye{
+    position: fixed;
+}
+h2{
+    font-family: papyrus;
+    color: #050303;
+}
+h3{
+    font-family: MS UI Gothic;
+    color: #6C5757;
+    font-size: 1.6rem;
+}
+h4{
+    color: #6C5757;
+}
+.Log-in{
+    margin: auto;
+}
+.createAccount:hover{
+    text-shadow: 5px 5px 10px;
+}
+.login{
+    padding: 35px 5px;
+    margin: auto;
+    width: 60vh;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+
+
+ input{
+    width: 250px;
+   height: 35px;
+    border: none;
+    border-bottom: 1px solid rgb(160, 152, 152) ;
+    background: transparent;
+    outline: none;
+    text-indent: 5%;
+    border-radius: 5px;
+    
+}
+input:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#EEE6E0;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; 
+    border-radius: 20px;
+}
+button:hover{
+    box-shadow: 1.5px 1.5px 10px #555 ;
+    background-color:#B7B6C7;
+    cursor: pointer;
+}
+@media screen and (max-width: 720px){
+    .login{
+        margin-top: 30px;
+        height:65vh;
+        width: 40vh;
+        font-size: small;
+        padding: 15px 5px;
+    }
+    .Log-in{
+        font-size: smaller;
+    }
+    input{
+        font-size: x-small;
+        width: 160px;
+        height: 25px;
+        border: none;
+        border-radius: 5px;
+    }
+    button{
+        width: 150px;
+        height: 30px;
+        border: none;
+        outline: none;
+        box-sizing: border-box; 
+        border-radius: 20px;
+        font-size: x-small;
+    }
+    .NoAccount{
+        font-size: small;
+    }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CreateOrder.css">
+    <title>Create Order | JC's Cakes and Pastries</title>
+</head>
+<body>
+
+    <div class="body">
+        <div class="Nav-bar">
+            <h2>JC's Cakes and Pastries</h2>
+            
+            <div class="nav">
+                    <div class="hamburger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                <ul class="nav-links"> 
+                    <li ><a class="men" href="index.html" style="color: #3F3B3B;">Menu</a></li>
+                    <li ><a class="About" href="About.html" style="color: #3F3B3B;">About</a></li>
+                    <li><a class="Com" href="Comment.html" style="color: #3F3B3B;">Comments</a></li>
+                    <li><a class="myorders" href="Orders.html" style="color: #3F3B3B;">Orders</a></li>
+                    <li><a class="login" href="log-in.html" style="color: #3F3B3B;">Login</a></li>
+                    <li><a href="#"><button class="btn">Create Order</button></a></li><br><br><br>
+                </ul>
+            </div>
+        </div>
+
+        <div class="space">
+            <h3> </h3>
+        </div>
+       
+        <div class="container">
+            <div class="banner">
+                <h2>Your Order</h2>
+            </div> 
+            <form method="GET">
+                <div class="info">
+                        <div class="NAME">
+                            <h4 class="label1">Name:</h4>
+                                <input class="name" type="text" placeholder="Name" name="first_name"><br>
+                            <h4 class="labeladd">Address:</h4>
+                                <input class="add" type="text" placeholder="Address" name="address"><br>
+                            <h4 class="labeldate">Date:</h4>
+                                    <input class="date" type="date" placeholder="Date" name="DATE"><br>
+                          
+                        </div>
+                        <div class="PAYMENT">
+                            <h4 class="label2">Cake:</h4>
+                            <select name="Cakes" id="ake">
+                                <option ></option>
+                                <option value="ube">Ube Cake</option>
+                                <option value="chocolate">Chocolate Cake</option>
+                                <option value="cassavas">Cassava Cake</option>
+                                <option value="Eggp">Eggpie</option>
+                                <option value="Brownies">Brownies</option>
+                                <option value="Lechef">Leche Flan</option>
+                                <option value="Banana">Banana Cake</option>
+                                <option value="chiff">Chiffon Cake</option>
+                                <option value="custard">Custard Cake</option>
+                            </select>
+                            <br>
+                               <h4 class="labelpay">Payment:</h4>
+                                    <select name="Payment" id="mode">
+                                        <option ></option>
+                                        <option value="pick">Pick-up</option>
+                                        <option value="cod">Cash on Delivery</option>
+                                        <option value="cod">Credit or Debit Card</option>
+                                    </select>
+                                <h4 class="labelquan">Quantity:</h4>
+                                    <input class="quantity" type="number" name="quantity" min="1" max="10">
+                               
+                        </div>
+                        <div class="PHONE"><br><br>
+                            <h4 class="label2">Phone:</h4>
+                                <input  class="phone" type="text" name="cel" placeholder="Phone Number">
+                            <h4 class="labeltime">Time:</h4>
+                                <input class="Time" type="time" name="time" placeholder="Time"><br>
+                          
+                        </div>        
+                        <div class="REQUEST">
+                            <h4 class="label3">Request:</h4>
+                            <textarea class="message" name="message" rows="5" cols="15" placeholder="Type your request here..."></textarea>
+                        </div>
+                        <div class="TOTAL">
+                            <h4  class="label4">Total:</h4>
+                                <input class="total" placeholder="Total" name="total" disabled>
+                        </div>
+                        <div class="card-details"><br>
+                                <h4 class="label5"> Pay Using Credit or Debit Card</h4>
+                            <div class="card-num">
+                                <label class="card-no">Card Number</label><br>
+                                    <input type="text" class="card-num-field" placeholder="xxxx-xxxx-xxxx-xxxx">
+                            </div>
+                            <div class="expiry-date">
+                                <label class="exp-no">Expiry Date</label><br>
+                                    <input type="text" class="datefield" placeholder="mm">
+                                    <input type="text" class="datefield" placeholder="yy">   
+                            </div>
+                            
+                            <div class="CVC">
+                                <label class="cvc">Card Verification Code</label><br>
+                                    <input type="password" class="cvcfield" placeholder="xxx"> 
+                            </div>
+                            <div class="cardholder">
+                                <label class="cardhol">Card Holder Name</label><br>
+                                    <input type="text" class="namefield" placeholder="Full Name"> 
+                            </div>
+                            
+                                <button type="button" class="make-order" > Make Order</button>
+                          
+                            
+                        </div>   
+                </div>
+               
+            </form>
+            
+           
+        </div> 
+
+
+    </div>
+    
+</body> 
+</html>

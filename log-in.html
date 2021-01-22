@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>Log-in | JC's Cakes and Pastries</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h2>JC's Cakes and Pastries</h2><br><br><br>
+        <div class="login">
+            <h3>Log-In</h3><br><br>
+            <input type="text" placeholder="Email" name=""><br><br><br><br>
+            <input type="password" placeholder="Password" id="myInput">
+            <span class="eye" onclick="myFunction()">
+            <i id="hide1" class="fa fa-eye" ></i>
+            <i id="hide2" class="fa fa-eye-slash" ></i>
+            </span><br><br> <br><br><br>
+            <a href="Homepage.html">
+            <button >Login</button></a><br><br><br><br>
+            <h3 class="NoAccount"> No Account?</h3><br><br>
+            <h4><a class="createAccount" href="CreateAccount.html" style="color: #6C5757;">Create Account</a></h4>      
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myInput")
+            var y = document.getElementById("hide1")
+            var z = document.getElementById("hide2")
+
+            if(x.type=== 'password'){
+                x.type= "text";
+                y.style.display ="block";
+                z.style.display = "none";
+            }
+            else{
+                x.type= "password";
+                y.style.display ="none";
+                z.style.display = "block";
+            }
+        }
+    </script>
+    
+</body>
+</html>
