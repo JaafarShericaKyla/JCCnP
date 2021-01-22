@@ -7,7 +7,7 @@
     
 }
 body{
-    background-image:linear-gradient(rgba(250, 250, 250, 0.108),rgba(125, 121, 121, 0.666)),url(Images/bg.jpg);
+    background-image:url(Images/bg.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
