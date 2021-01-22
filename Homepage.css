@@ -55,7 +55,7 @@ body{
 .first{
     width: 90%;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.741);
+    background-color: rgba(255, 255, 255, 0.762);
     display: flex;
     margin-left: 5%;
     padding: 3.5px 5px;
@@ -73,7 +73,7 @@ body{
 .third{
     width: 85%;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.741);
+    background-color: rgba(255, 255, 255, 0.762);
     display: flex;
     margin: auto;
     padding: 4px 5px;
@@ -137,7 +137,7 @@ img:hover{
 .sec{
     width: 90%;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.741);
+    background-color: rgba(255, 255, 255, 0.762);
     display: flex;
     margin-left: 5%;
     padding: 3px 5px;
